@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>梅西</title>
+</head>
+<body>
+    <header class="banner">
+        <img src="./images/banner.jpg" width="100%">
+    </header>
+    <nav class="menu">
+        <ul class="center">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="news.html">新闻</a></li>
+            <li><a href="pic.html">图片</a></li>
+            <li><a href="sp.html">视频</a></li>
+            <li><a href="msg.html">留言</a></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="bar">
+        </div>
+        <form action="javascript:;">
+            <table width="737" border="0" class="msg">
+                <tbody>
+                    <tr>
+                        <td width="52" height="49" align="right"><label for="label"><span>姓名</span></label></td>
+                        <td width="354"><input type="text" name="name" class="inp" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td height="52" align="right"><label for="label"><span>电话</span></label></td>
+                        <td><input type="text" name="email" class="inp" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td height="52" align="right"><label for="label"><span>留言内容</span></label></td>
+                        <td><textarea name="" class="inp" id="nei" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td height="52">&nbsp;</td>
+                        <td><input type="button" name="submit" id="submit" value="提交" onclick="submitForm()"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        </div>
+        <footer class="end">
+            <p>梅西</p>
+        </footer>
+        <script>
+            function submitForm() {
+                alert('提交成功');
+            }
+        </script>
+        </body>
+        </html>
